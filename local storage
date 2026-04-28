@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <button onclick="setUserName()">Submit</button>
+   <script>
+    //session storage
+    function setUserName() {
+        sessionStorage.setItem("username","Afrin");
+    }//set value
+    function removeUserName() {
+        sessionStorage.removeItem("username");
+    }//remove value 
+   </script>
+</body>
+</html>
